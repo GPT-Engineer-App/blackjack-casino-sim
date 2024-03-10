@@ -126,7 +126,7 @@ const Index = () => {
   };
 
   const renderCard = (card) => (
-    <Box w="60px" h="90px" borderWidth="1px" borderRadius="md" display="flex" alignItems="center" justifyContent="center" fontSize="xl" m="2" bg="white">
+    <Box w="60px" h="90px" borderWidth="1px" borderRadius="md" display="flex" alignItems="center" justifyContent="center" fontSize="xl" m="2" bg="#208c7a">
       {card.isHidden ? "?" : `${card.label}${card.suit}`}
     </Box>
   );
